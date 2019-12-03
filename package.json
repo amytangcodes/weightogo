@@ -1,24 +1,24 @@
 {
-  "name": "hackeryou-fullstack-project",
+  "name": "weightogo",
   "version": "1.0.0",
   "description": "HackerYou Fullstack Masterclass Project",
   "main": "index.js",
   "scripts": {
     "deploy": "npm run build:client && node api/server.js",
     "build": "npm run build:client && npm run move:client",
-    "init": "node scripts/init.js",
     "test": "react-scripts test",
     "start:server": "nodemon api/server.js --ignore src/ --ignore build/ --ignore public/",
     "start:client": "react-scripts start",
     "build:client": "react-scripts build",
-    "move:client": "cp -R build/ public"
+    "move:client": "cp -R build/ public",
+    "git": "node scripts/git.js amytangcodes weightogo"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HackerYou/con-ed-full-stack.git"
+    "url": "git+https://github.com/amytangcodes/weightogo.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Amy Tang",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/HackerYou/con-ed-full-stack/issues"
